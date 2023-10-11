@@ -28,4 +28,4 @@ RUN apt-get update && \
 # Una vez instalado node, ya podemos hacer la instalación de dependencias para ejecutar nuestro servidor.
 RUN npm install
 
-CMD ["npm", "run", "dev"]
+CMD ["node", "server.js"]

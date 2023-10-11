@@ -15,4 +15,4 @@ RUN npm install
 # Exponemos el puerto 81. Este puerto debe ser el mismo que se utiliza para crear el servidor y, al crear el contenedor, cuando hacemos el mapeo de puertos, el puerto del contenedor debe ser igual al puerto expuesto aquí.
 EXPOSE 3000
 
-CMD ["npm", "run", "dev"]
+CMD ["node", "index.js"]

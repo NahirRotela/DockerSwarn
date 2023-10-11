@@ -10,7 +10,7 @@ services:
       - ./mysql-datos:/var/lib/mysql
 
   apache:
-    image: nia-img
+    image: apache-img
     ports:
       - "8080:81"
     deploy:
